@@ -1,6 +1,6 @@
 # 🛒 Fashion E-commerce Shopping Store Landing Page
 
-Welcome to the **E-commerce Shopping Store** landing page, a sleek and modern web application developed from a [Figma Design](https://www.figma.com/community/file/1135871952737326157/shopping-website) into a fully responsive and user-friendly Next.js web app! 🚀
+Welcome to the **E-commerce Shopping Store** landing page, a sleek and modern web application developed from a [Figma Design](https://www.figma.com/community/file/1135871952737326157/shopping-website) into a fully responsive and user-friendly Next.js website! 🚀
 
 This project is **free**, **open-source**, and designed with **modern web technologies** to provide an optimal shopping experience across devices.
 
