@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="flex flex-col lg:flex-row justify-between bg-[#f6f5f5] rounded-[30px] lg:rounded-[50px] mt-12 mb-8 min-h-[400px] lg:min-h-[600px] p-6 lg:p-0">
       <section className="pt-10 lg:pt-16 lg:pl-20 flex flex-col items-start">
         <h1 className="uppercase font-extrabold text-4xl lg:text-7xl mb-6 lg:mb-9">
-          <span className="block bg-white pl-3 lg:pl-4 mb-2 lg:mb-3 mr-24 lg:mr-48">let's</span>
+          <span className="block bg-white pl-3 lg:pl-4 mb-2 lg:mb-3 mr-24 lg:mr-48">let&apos;s</span>
           <span className="block pl-3 lg:pl-4 mb-2 lg:mb-3">explore</span>
           <span className="block bg-yellow-300 pl-2 lg:pl-3 ml-0 lg:ml-1 mb-2 lg:mb-3 mr-24 lg:mr-44">unique</span>
           <span className="block pl-3 lg:pl-4">clothes.</span>

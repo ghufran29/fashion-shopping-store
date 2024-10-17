@@ -33,18 +33,15 @@ const NavBar = () => {
       </section>
       {/* Nav Links */}
       <ul className="hidden lg:flex font-medium tracking-wide items-center space-x-12 uppercase">
-        <li className="relative after:content-[''] after:absolute after:bottom-[-0.4em] after:left-1/2 after:right-1/2 after:h-[1px] after:bg-yellow-400 after:transition-all after:ease-in after:duration-200 hover:after:left-0 hover:after:right-0 hover:after:h-[2px] before:content-[''] before:absolute before:translate-x-[-100%] before:left-[-10px] before:text-[#eee] before:opacity-30 before:font-thin before:text-[0.8em]">
-          <Link href="">Catalogue</Link>
-        </li>
-        <li className="relative after:content-[''] after:absolute after:bottom-[-0.4em] after:left-1/2 after:right-1/2 after:h-[1px] after:bg-yellow-400 after:transition-all after:ease-in after:duration-200 hover:after:left-0 hover:after:right-0 hover:after:h-[2px] before:content-[''] before:absolute before:translate-x-[-100%] before:left-[-10px] before:text-[#eee] before:opacity-30 before:font-thin before:text-[0.8em]">
-          <Link href="">Fashion</Link>
-        </li>
-        <li className="relative after:content-[''] after:absolute after:bottom-[-0.4em] after:left-1/2 after:right-1/2 after:h-[1px] after:bg-yellow-400 after:transition-all after:ease-in after:duration-200 hover:after:left-0 hover:after:right-0 hover:after:h-[2px] before:content-[''] before:absolute before:translate-x-[-100%] before:left-[-10px] before:text-[#eee] before:opacity-30 before:font-thin before:text-[0.8em]">
-          <Link href="">Favourite</Link>
-        </li>
-        <li className="relative after:content-[''] after:absolute after:bottom-[-0.4em] after:left-1/2 after:right-1/2 after:h-[1px] after:bg-yellow-400 after:transition-all after:ease-in after:duration-200 hover:after:left-0 hover:after:right-0 hover:after:h-[2px] before:content-[''] before:absolute before:translate-x-[-100%] before:left-[-10px] before:text-[#eee] before:opacity-30 before:font-thin before:text-[0.8em]">
-          <Link href="">Lifestyle</Link>
-        </li>
+      {navLinks.map((item, index) => (
+              <Link
+                key={index}
+                href={item.link}
+                className="relative after:content-[''] after:absolute after:bottom-[-0.4em] after:left-1/2 after:right-1/2 after:h-[1px] after:bg-yellow-400 after:transition-all after:ease-in after:duration-200 hover:after:left-0 hover:after:right-0 hover:after:h-[2px] before:content-[''] before:absolute before:translate-x-[-100%] before:left-[-10px] before:text-[#eee] before:opacity-30 before:font-thin before:text-[0.8em]"
+              >
+                {item.label}
+              </Link>
+            ))}
       </ul>
       {/* Button */}
       <section className="flex items-center gap-4">

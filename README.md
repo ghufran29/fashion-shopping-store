@@ -13,7 +13,7 @@ This project is **free**, **open-source**, and designed with **modern web techno
 
 ## 🚀 Demo
 
-Check out the live demo here: [**Live Demo URL**](#)
+Check out the live demo here: [**Live Demo URL**](https://fashion-shopping-store.vercel.app/)
 
 ## 🎨 Figma Design
 

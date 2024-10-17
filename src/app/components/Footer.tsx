@@ -21,7 +21,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-2">
             <div className="bg-yellow-300 w-8 h-8 rounded-lg p-2 hover:bg-white">
-              <FaFacebookF />
+              <FaFacebookF className="w-4 h-4" />
             </div>
             <div className="bg-yellow-300 w-8 h-8 rounded-lg p-2 hover:bg-white">
               <FaInstagram />
@@ -41,22 +41,22 @@ const Footer = () => {
             <h3 className="text-md text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-4">
               <li>
-                <Link className="text-neutral-400 hover:text-white" href="#">
+                <Link className="text-neutral-400 hover:text-white" href="/">
                   About
                 </Link>
               </li>
               <li>
-                <Link className="text-neutral-400 hover:text-white" href="#">
+                <Link className="text-neutral-400 hover:text-white" href="/">
                   Contact us
                 </Link>
               </li>
               <li>
-                <Link className="text-neutral-400 hover:text-white" href="#">
+                <Link className="text-neutral-400 hover:text-white" href="/">
                   Support
                 </Link>
               </li>
               <li>
-                <Link className="text-neutral-400 hover:text-white" href="#">
+                <Link className="text-neutral-400 hover:text-white" href="/">
                   Careers
                 </Link>
               </li>
