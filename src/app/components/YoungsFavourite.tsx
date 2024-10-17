@@ -8,7 +8,7 @@ const YoungsFavourite = () => {
   return (
     <div className="p-4">
       <h3 className="text-2xl lg:text-3xl font-extrabold mb-12 lg:mb-20">
-        Young's Favourite
+        Young&apos;s Favourite
       </h3>
       <div className="flex flex-col lg:flex-row justify-center gap-6 lg:gap-8 items-center">
         <div className="p-2 rounded-md hover:scale-105 transition-transform mb-8 lg:mb-0">
